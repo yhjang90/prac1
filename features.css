@@ -1,4 +1,27 @@
-.page_tit{
-    text-align: center;
-    padding:
-}
+.page_tit{text-align: center; padding: 80px 0;}
+.page_tit strong{color:#505d68;}
+.page_tit > strong{font-size:50px; font-weight:500; }
+section{height:calc(100% - 210px);}
+.le_desc{text-align: right; float: left;}
+.rig_desc{float: right;}
+.cen_img{text-align: center; width:18.7%; margin:0 auto;}
+.cen_img img{display: inline-block; width:100%;}
+.le_desc, .rig_desc{width:37.1%;}
+.le_desc, .cen_img, .rig_desc{padding:0 1%;}
+.le_desc_txt, .le_icon{float: right;}
+.le_desc_txt, .rig_desc_txt{margin:0 23px;}
+.rig_desc_txt, .rig_icon{float: left;}
+.le_desc > li, .rig_desc > li{margin-top:100px;}
+.le_desc > li:first-child, .rig_desc > li:first-child{margin-top:74px;}
+.le_desc_txt > p, .rig_desc_txt > p{margin-top:25px; color:#a1aeb7; font-size: 16px; line-height: 24px;}
+.decs_tit{display: inline-block;font-size: 21px; font-weight: 600; color:#505d68;}
+.le_icon > i, .rig_icon > i{color:#ccc; font-size:30px;}
+
+
+
+
+
+.a{width:80%; margin:0 auto;}
+.com_wrap{margin-left: -15px;}
+.kit_info{width:30%; float: left; padding:0 15px;}
+.kit_info:nth-child(3n+1){clear: both;}
