@@ -1,4 +1,4 @@
-.page_tit{text-align: center; padding: 80px 0; font-size:50px; font-weight:600; color:#505d68;}
+.page_tit, .page-tit{text-align: center; padding: 80px 0; font-size:50px; font-weight:600; color:#505d68;}
 section{height:calc(100% - 210px);}
 .le_desc{text-align: right; float: left;}
 .rig_desc{float: right;}
@@ -11,11 +11,9 @@ section{height:calc(100% - 210px);}
 .rig_desc_txt, .rig_icon{float: left;}
 .le_desc > li, .rig_desc > li{margin-top:100px;}
 .le_desc > li:first-child, .rig_desc > li:first-child{margin-top:74px;}
-.le_desc_txt > p, .rig_desc_txt > p{margin-top:25px; color:#a1aeb7; font-size: 16px; line-height: 24px;}
-.decs_tit, .info_tit{display: inline-block;font-size: 21px; font-weight: 600; color:#505d68;}
+.le_desc_txt > p, .rig_desc_txt > p, .aest-txt > p{margin-top:25px; color:#a1aeb7; font-size: 16px; line-height: 24px;}
+.decs_tit, .info_tit, .aest-tit{display: inline-block;font-size: 21px; font-weight: 600; color:#505d68;}
 .le_icon > i, .rig_icon > i{color:#ccc; font-size:30px;}
-
-
 
 
 .com_body{background-color: #f2f5f7;}
@@ -27,3 +25,19 @@ section{height:calc(100% - 210px);}
 .info_tit{margin-top:54px;}
 .info_icon > i{color:#ccc; font-size:60px}
 .info_desc{margin-top:25px; color:#a1aeb7; font-size: 16px; line-height: 24px; }
+
+
+.over{position: relative;}
+.phone-tab{text-align: center; }
+.phone-tab li{padding:0 1.2%;display: inline-block;}
+.phone-tab li .phone-tab-list{float: left; width:165px; text-align: center; border: 1px solid #424b5a; border-radius: 5px; padding:12px 0; box-sizing: border-box;}
+.phone-tab li:first-child .phone-tab-list{background-color: #424b5a; color:#fff;}
+.tab-arti{margin-top:70px; }
+.aest-txt-wrap{padding:0 100px 0 542px; margin-top:65px;}
+.aest-txt{max-width: 350px;}
+.aest-img{position: absolute; bottom: -86px; left: 131px;}
+.aest-img, .aest-txt-wrap{float: left;}
+.aest-list{margin-top:40px;color:#a1aeb7; font-size: 16px; margin-left: -5%;}
+.aest-list li{margin-top:18px;}
+.aest-list li i{color:#333; font-size:25px; padding:0 5%; float: left;}
+.aest-list li span{float: left; margin-top:5.5px;}
